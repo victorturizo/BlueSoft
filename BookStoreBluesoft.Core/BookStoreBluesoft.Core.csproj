@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookStoreBluesoft.Common\BookStoreBluesoft.Common.csproj" />
+    <ProjectReference Include="..\BookStoreBluesoft.Entities\BookStoreBluesoft.Entities.csproj" />
+    <ProjectReference Include="..\BookStoreBluesoft.Infrastructure\BookStoreBluesoft.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
